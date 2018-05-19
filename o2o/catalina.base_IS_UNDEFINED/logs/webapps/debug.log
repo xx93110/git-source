@@ -1,0 +1,23 @@
+2018-04-16 01:52:09.465[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopList-==>  Preparing: select s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from tb_shop s, tb_area a, tb_shop_category sc WHERE userId = ? and s.area_id=a.area_id and s.shop_category_id=sc.shop_category_id order by s.priority desc limit ?,? 
+2018-04-16 01:52:09.512[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopList-==> Parameters: 1(Long), 0(Integer), 5(Integer)
+2018-04-16 01:55:43.301[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopList-==>  Preparing: select s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id=a.area_id and s.shop_category_id=sc.shop_category_id order by s.priority desc limit ?,? 
+2018-04-16 01:55:43.343[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopList-==> Parameters: 1(Long), 0(Integer), 5(Integer)
+2018-04-16 01:55:43.368[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopList-<==      Total: 5
+2018-04-16 01:57:44.889[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopList-==>  Preparing: select s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id=a.area_id and s.shop_category_id=sc.shop_category_id order by s.priority desc limit ?,? 
+2018-04-16 01:57:44.941[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopList-==> Parameters: 1(Long), 0(Integer), 5(Integer)
+2018-04-16 01:57:44.968[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopList-<==      Total: 5
+2018-04-16 01:57:44.975[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopCount-==>  Preparing: select count(1) from tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id=a.area_id and s.shop_category_id=sc.shop_category_id 
+2018-04-16 01:57:44.976[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopCount-==> Parameters: 1(Long)
+2018-04-16 01:57:44.983[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopCount-<==      Total: 1
+2018-04-16 02:00:51.110[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopList-==>  Preparing: select s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id=a.area_id and s.shop_category_id=sc.shop_category_id order by s.priority desc limit ?,? 
+2018-04-16 02:00:51.174[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopList-==> Parameters: 1(Long), 0(Integer), 5(Integer)
+2018-04-16 02:00:51.196[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopList-<==      Total: 5
+2018-04-16 02:00:51.202[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopCount-==>  Preparing: select count(1) from tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id=a.area_id and s.shop_category_id=sc.shop_category_id 
+2018-04-16 02:00:51.203[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopCount-==> Parameters: 1(Long)
+2018-04-16 02:00:51.204[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopCount-<==      Total: 1
+2018-04-16 02:01:08.860[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopList-==>  Preparing: select s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id=a.area_id and s.shop_category_id=sc.shop_category_id order by s.priority desc limit ?,? 
+2018-04-16 02:01:08.912[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopList-==> Parameters: 2(Long), 0(Integer), 5(Integer)
+2018-04-16 02:01:08.935[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopList-<==      Total: 2
+2018-04-16 02:01:08.942[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopCount-==>  Preparing: select count(1) from tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? and s.area_id=a.area_id and s.shop_category_id=sc.shop_category_id 
+2018-04-16 02:01:08.942[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopCount-==> Parameters: 2(Long)
+2018-04-16 02:01:08.943[main]DEBUGcom.xy.o2o.dao.ShopDao.queryShopCount-<==      Total: 1
